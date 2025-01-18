@@ -1,4 +1,4 @@
-FROM  python:alpine
-COPY . /app 
+FROM python:alpine
+COPY . /app
 WORKDIR /app
-CMD ["python", "/app.py"]
+CMD ["python", "app.py"]
